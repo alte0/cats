@@ -1,0 +1,8 @@
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+.js-focus-visible .focus-visible + label,
+.js-focus-visible .focus-visible[type="button"] {
+  outline: 2px solid white;
+}

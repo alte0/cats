@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/focus-visible/dist/focus-visible';
 import 'normalize.css';
-import './scss/fonts.scss';
 import './scss/text.scss';
 import './scss/polyfill-focus-visible.scss';
 import './index.scss';

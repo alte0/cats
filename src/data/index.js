@@ -1,5 +1,5 @@
-import products from './products.json';
+import json from './products.json';
 
 export const getProducts = () => new Promise(function(resolve) {
-  setTimeout(() => resolve(products), 500);
+  setTimeout(() => resolve(json), 1500);
 });

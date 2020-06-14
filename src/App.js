@@ -27,6 +27,11 @@ class App extends Component {
             products: data.products,
             isLoading: false
           })
+        })
+        .finally(() => {
+          this.setState({
+            isLoading: false
+          })
         });
   }
 
@@ -35,6 +40,14 @@ class App extends Component {
 
     if (isLoading) {
       return <Loading />
+    }
+    
+    if (!products) {
+      return (
+        <Main middle={true}>
+          <p>Данные по продуктам не загрузились.</p>
+        </Main>
+      ) 
     }
 
     return (

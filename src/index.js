@@ -4,6 +4,7 @@ import '../node_modules/focus-visible/dist/focus-visible';
 import 'normalize.css';
 import './scss/text.scss';
 import './scss/polyfill-focus-visible.scss';
+import './scss/fonts.scss';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';

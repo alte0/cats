@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Exo 2.0';
   src: local('Exo 2.0 Thin'), local('Exo2.0-Thin'),
-    url('./fonts/Exo20-Thin.woff2') format('woff2'),
-    url('./fonts/Exo20-Thin.woff') format('woff');
+    url('../fonts/Exo20-Thin.woff2') format('woff2'),
+    url('../fonts/Exo20-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -11,8 +11,8 @@
 @font-face {
   font-family: 'Trebuchet MS';
   src: local('Trebuchet MS'), local('TrebuchetMS'),
-    url('./fonts/TrebuchetMS.woff2') format('woff2'),
-    url('./fonts/TrebuchetMS.woff') format('woff');
+    url('../fonts/TrebuchetMS.woff2') format('woff2'),
+    url('../fonts/TrebuchetMS.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -21,8 +21,8 @@
 @font-face {
   font-family: 'Trebuchet MS';
   src: local('Trebuchet MS Bold'), local('TrebuchetMS-Bold'),
-    url('./fonts/TrebuchetMS-Bold.woff2') format('woff2'),
-    url('./fonts/TrebuchetMS-Bold.woff') format('woff');
+    url('../fonts/TrebuchetMS-Bold.woff2') format('woff2'),
+    url('../fonts/TrebuchetMS-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
